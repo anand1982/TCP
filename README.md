@@ -67,7 +67,7 @@ The dataset contains a "strong disease-focused bias" (6,461 diseased vs. 3,080 h
 * **Sampling:** Implement a `WeightedRandomSampler` in your Data Loader.
 
 ### Model Selection
-* **Mobile-Friendly:** If the goal is a farmer-facing app, use **MobileNetV3** or **EfficientNet-B0**.
+* **Mobile-Friendly:** If the goal is a farmer-facing app, use **MobileNetV3** or **MobileNet**.
 * **High Accuracy:** For research benchmarks, use **ResNet-50** or **Vision Transformer (ViT)** to capture the fine-grained features of lesions and chlorosis.
 
 ### Metrics
